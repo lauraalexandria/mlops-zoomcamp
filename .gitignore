@@ -172,3 +172,15 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# data
+*.csv
+*.parquet
+
+# mlflow
+
+*/127.0.0.1:5000
+mlruns/
+mlartifacts/*
+mlflow-artifacts/*
+mlops_zoom

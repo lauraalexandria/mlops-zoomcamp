@@ -13,8 +13,10 @@ hyperopt = "*"
 xgboost = "*"
 fastparquet = "*"
 boto3 = "*"
+awscli = "*"
 
 [dev-packages]
+pytest = "*"
 
 [requires]
 python_version = "3.12"

@@ -176,6 +176,7 @@ cython_debug/
 # data
 *.csv
 *.parquet
+*/final_data
 
 # mlflow
 
@@ -184,3 +185,10 @@ mlruns/
 mlartifacts/*
 mlflow-artifacts/*
 mlops_zoom
+
+# keys
+
+*.pem*
+
+# configs (necessário?)
+*.json
